@@ -50,4 +50,3 @@ def produto(request):
         return render(request, 'produto.html', context)
     else:
         return redirect('index')
-# Create your views here.

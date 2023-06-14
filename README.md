@@ -21,7 +21,7 @@ editar settings.py
 =================================================================================
 MySQL
 
-CREAE DATABASE django2;
+CREATE DATABASE django2;
 =================================================================================
 
 editar core.views.py
@@ -33,6 +33,8 @@ criar contato.html index.html produto.html
 criar pasta core.static
 
 criar pastas: css, js, images
+
+crair arquivo js.
 
 editar urls.py
 
@@ -54,10 +56,26 @@ python manage.py runserver
 
 editar admin.py
 
+criar forms.py
 
+================================================================= 
 
+python manage.py shell
 
+from django import forms
 
+dir(forms)
 
+help(forms.Charfield)
 
-crair arquivos html, js e imagens.
+dir(forms.Form)
+
+help(forms.Form.is_valid)
+
+=================================================================
+
+editar settings.py
+
+pip freeze > requirements.txt
+
+Publicar. (fazer alterações)
